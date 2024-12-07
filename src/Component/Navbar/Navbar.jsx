@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       {(userData || userToken) &&
-      userData?.email?.toLowerCase() === "hossamnada@gmail.com" ? (
+      userData?.email?.toLowerCase() === "npm" ? (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between  w95">
           <li className="nav-item">
             <Link className="nav-link" to="/dashboard">
