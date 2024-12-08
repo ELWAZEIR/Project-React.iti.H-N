@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 import { Link, useParams } from "react-router-dom/cjs/react-router-dom.min";
-// import MyCard from "../Cart/MyCard";
-import MyTitle from "../../Component/MyTitle";
 import './ProductDetails.css'
 import { BASE_URL } from "../../Servises/api";
 function ProductsDetails() {
